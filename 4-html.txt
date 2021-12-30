@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Document</title>
+</head>
+  <!-- <style>
+     body{
+        height: 5000px;
+     }
+  </style> -->
+
+<body>
+    <button id="btn">Click Me</button>
+    <form action="">
+       <input id="input1" type="text" />
+       <input type="submit" value="submit Data">
+    </form>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
