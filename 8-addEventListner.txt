@@ -1,0 +1,46 @@
+
+/*
+  DOM [Add Event Listener]
+ 
+  Search
+  - Capture & Bubbling JavaScript
+  - removeEventListener
+*/
+
+// let myP = document.querySelector("h1");
+
+// myP.onclick = one;
+
+// function one() {
+//   console.log("Message From OnClick 1");
+// }
+
+
+// myP.addEventListener("click", function () {
+//   console.log("Message From OnClick 1 Event");
+// });
+
+//  myP.addEventListener("click", one);
+
+
+// myP.onclick = function () {
+//   let newP = myP.cloneNode(true);
+//   newP.className = "clone";
+//   document.body.appendChild(newP);
+// };
+
+
+// let cloned = document.querySelector(".clone"); // Error
+
+// cloned.onclick = function () {
+//   console.log("Iam Cloned");
+// };
+
+
+
+// document.addEventListener("click", function (e) {
+   
+//   if (e.target.className === "clone") {
+//     console.log("Iam Cloned");
+//   }
+// });
