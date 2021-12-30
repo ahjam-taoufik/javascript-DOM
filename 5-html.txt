@@ -10,9 +10,11 @@
   </style> -->
 
 <body>
-    <button id="btn">Click Me</button>
+ 
+
     <form action="">
-       <input id="input1" type="text" />
+       <input id="name" name="" type="text" placeholder="max 12 chars" />
+       <input id="" name="age" type="text" placeholder="age cant be empty" />
        <input type="submit" value="submit Data">
     </form>
 
